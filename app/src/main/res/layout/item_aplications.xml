@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:background="@color/backgroundList"
+        android:elevation="3dp"
+         android:padding="1dip"
+    >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/IVMenu"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="5dp" />
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center|left"
+            android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Medium Text"
+                    android:id="@+id/lbl_nombre"
+                    android:textColor="@color/textsColor"
+                    android:textSize="23dp"
+                    android:lines="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Medium Text"
+                    android:id="@+id/lbl_company"
+                    android:textColor="@color/textsColor"
+                    android:layout_margin="2dp" />
+
+            </LinearLayout>
+    </LinearLayout>

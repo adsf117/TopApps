@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Top Apps</string>
+    <string name="try_again">Try again</string>
+    <string name="upps">Upp!</string>
+    <string name="no_data_avalible">No connection and  Data avalible</string>
+    <string name="text_all_category">Show All</string>
+    <string name="status_on_line">on Line</string>
+    <string name="status_off_line">Off line</string>
+    <string name="relasedate">"ReleaseDate: %s"</string>
+    <string name="category">"Category: %s"</string>
+    <string name="sumary">"Summary: %s"</string>
+</resources>
